@@ -1,5 +1,4 @@
 #H1 Joshua Ryan Cruz
-#Project 2 - H2.
 ##1. THEME
     The theme is pretty straight forward to begin with. It's going to revolve around the great city of Pawnee indiana. I think
     there will eventually be a more developed or refined theme. The theme is extended by the Ron Swansot, a helpful ron swanson bot. 
@@ -30,26 +29,3 @@
   1. I had to set up circleci to use the heroku pg instance using the database's uri. So when deploying it adds a test message to the chat.
 
 
-
-# Regrading:
-1. USERLIST: 
-  1.  all connected users in a list is always visible
-  2.  current number of connected users is always visible
-2.BOT:
-  1. chatbot is clearly identifiable
-  2. bot messages room when people connect or leave
-  3. !! about makes the bot message the room with a description
-  4. !! help makes the bot message the room with a list of all commands
-  5. !! say <something> makes the bot say <something> to the room
-  6. 1 other command 'neigh'
-  7. another command 'notknope'
-  8. bot acknowledges unrecognized commands
-3. CLIENTS:
-  1.  all clients show new user on connect
-  2.  all clients update count on connect
-  3.  all clients remove user on disconnect
-  4.  all clients update count on disconnect
-  5.  database is not SQLite (barely noticed i didn't get points for this, but my db was set up as postgres since last submit..)
-  6.  chat log at / loads with recent or all history (same as above)
-  7.  messages are persisted via database (please see h1 repository)
-  8.  user doesn’t count as connected user until authenticated
